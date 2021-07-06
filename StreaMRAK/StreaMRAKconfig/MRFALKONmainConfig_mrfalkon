@@ -1,5 +1,5 @@
 tag, MRFALKON main config
-lowlim_ntrp, 390000
+lowlim_ntrp, 110000
 
 lmNodeRatioFactor, 1
 loop, 1
