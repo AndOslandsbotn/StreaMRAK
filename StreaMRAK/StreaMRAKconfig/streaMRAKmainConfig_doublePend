@@ -1,0 +1,12 @@
+tag, StreaMRAK main config
+conv_KnmTKnm_thr, 0.0005
+conv_Zm_thr, 0.0005
+
+use_conv_est, 1
+track_length_conv_est, 100
+interval_length_conv_est, 10000
+
+lowlim_ntrp, 30000
+uplim_ntrp_factor, 1500000
+
+extract_all_nodes, 0

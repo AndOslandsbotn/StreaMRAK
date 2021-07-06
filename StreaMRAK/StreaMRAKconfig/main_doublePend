@@ -1,0 +1,31 @@
+tag, DoublePendulum
+
+#Time step
+dt, 0.025
+
+#Initial theta1
+th1, 0.0
+
+#Initial theta2
+th2, 0.0
+
+#Initial omega1
+w1, 0.0
+
+#Initial omega2
+w2, 0.0
+
+# acceleration due to gravity, in m/s^2
+G, 10
+
+# length of pendulum 1 in m
+L1, 1.0
+
+# length of pendulum 2 in m
+L2, 1.0
+
+# mass of pendulum 1 in kg
+M1, 1.0
+
+# mass of pendulum 2 in kg
+M2, 1.0

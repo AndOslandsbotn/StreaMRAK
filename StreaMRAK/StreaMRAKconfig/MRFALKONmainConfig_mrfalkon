@@ -1,0 +1,7 @@
+tag, MRFALKON main config
+lowlim_ntrp, 390000
+
+lmNodeRatioFactor, 1
+loop, 1
+
+interval_length_conv_est, 10000

@@ -1,0 +1,15 @@
+tag, FALKON
+
+reg_param, 0.001
+conj_grad_max_iter, 10
+conj_grad_thr, 1e-10
+chol_reg, 1e-10
+
+useGPU, 1
+nGrids, 1
+nBlocksPerGrid, 2
+nThreadsPerBlock, 2
+memToUse, 20.0
+
+kernelType, gaussianKernel
+

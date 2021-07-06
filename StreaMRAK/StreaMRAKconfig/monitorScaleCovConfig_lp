@@ -1,0 +1,7 @@
+tag, Monitor of Scale Cover
+highRate_PTlevel, 0.01
+lowRate_PTlevel, 0.0001
+thr_PTlevel, 0.90
+lmNodeRatioFactor, 10
+
+save_at_intervals, 1000

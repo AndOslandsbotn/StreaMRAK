@@ -1,3 +1,11 @@
+# Ignore folders
+Databases
+Datasets
+Figures
+LoggModel
+LvlFillingLogg
+Results
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
