@@ -5,6 +5,7 @@ Figures
 LoggModel
 LvlFillingLogg
 Results
+venv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -15,6 +16,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.idea
 .Python
 build/
 develop-eggs/

@@ -5,6 +5,7 @@ matplotlib.use('TKAgg')
 import matplotlib.pyplot as plt
 from decimal import Decimal
 import itertools as iter
+from pathlib import Path
 
 #System
 import os
@@ -328,10 +329,7 @@ class DataLoggerMonitorScaleCover():
         as recorded by the log_at_intervals function, see above
         """
         directory = os.path.join(os.getcwd(), 'LvlFillingLogg', location)
-        try:
-            os.stat(directory)
-        except:
-            os.mkdir(directory)
+        Path(directory).mkdir(parents=True, exist_ok=True)
 
         colNames = ['Num collected points', 'Num Landmarks', 'Num Nodes', 'Estimated CF']
         for level in self.levels:

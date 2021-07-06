@@ -32,8 +32,8 @@ def load_tr_data(path, num_batches):
     x_tr_bhs = x_tr_bhs.reshape(num_batches, -1, 1)
     y_tr_bhs = y_tr_bhs.reshape(num_batches, -1, 1)
 
-    x_tr_bhs = x_tr_bhs[:5, :, :]
-    y_tr_bhs = y_tr_bhs[:5, :, :]
+    #x_tr_bhs = x_tr_bhs[:5, :, :]
+    #y_tr_bhs = y_tr_bhs[:5, :, :]
     return x_tr_bhs, y_tr_bhs
 
 def load_ts_data(path, num_ts_batches):
@@ -57,7 +57,7 @@ if __name__ == '__main__':
     ###############################
 
     ### Load data
-    path = os.path.join(os.getcwd(), 'Datasets', DataFolder)
+    path = os.path.join(os.getcwd(), '..', 'Datasets', DataFolder)
     x_tr_bhs, y_tr_bhs = load_tr_data(path, num_batches)
     x_ts_bhs, y_ts_bhs = load_ts_data(path, num_ts_batches)
     dataLoader = DataLoader(X_batches=x_tr_bhs, y_batches=y_tr_bhs)
