@@ -26,6 +26,7 @@ The falkonSolver.py implementation in the StreaMRAK folder is a python adaptatio
 https://github.com/LCSL/FALKON_paper.git 
 with the affiliated paper [[1]](#1).
 
+
 ## References
 <a id="1">[1]</a> 
 A. Rudi, L. Carratino, L. Rosasco, FALKON: An Optimal Large Scale Kernel Method, in: Advances in Neural 
