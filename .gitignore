@@ -8,12 +8,12 @@ Results
 venv
 
 # Except these files
-!Datasets/DPmain
-!Datasets/doublePendulumAuxillary
-!Datasets/Generate_DP_datasets
-!Datasets/generate_dumbell_Dataset
-!Datasets/generate_dumbell_TargetFunc
-!Datasets/generate_varying_sinus_dataset
+!Experiments/Datasets/DPmain
+!Experiments/Datasets/doublePendulumAuxillary
+!Experiments/Datasets/Generate_DP_datasets
+!Experiments/Datasets/generate_dumbell_Dataset
+!Experiments/Datasets/generate_dumbell_TargetFunc
+!Experiments/Datasets/generate_varying_sinus_dataset
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
