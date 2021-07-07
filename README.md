@@ -9,8 +9,8 @@ Experiments for the StreaMRAK paper are found in the Experiments folder. To run 
 to generate the datasets using the code in the Experiments/Datasets folder. The MRFALKON code corresponds to the LP-KRR in the StreaMRAK paper.
 
 When running the MRFALKON experiments, it is neccessary to set the correct value for the
-lowlim_ntrp parameter inMRFALKONmainConfig_mrfalkon that can be found in the configuration file:
-StreaMRAK/StreaMRAKconfig/MRFALKONmainCOnfig_mrfalkon
+lowlim_ntrp parameter in the MRFALKONmainConfig_mrfalkon configuration file. This file can be 
+found in the folder StreaMRAK/StreaMRAKconfig.
 
 For the varsin experiments
 lowlim_ntrp = 110000
