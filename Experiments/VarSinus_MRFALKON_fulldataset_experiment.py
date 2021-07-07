@@ -39,8 +39,8 @@ def load_tr_data(path, num_batches, lm_factor=1, loop_data=1):
     x_tr_bhs = x_tr_bhs.reshape(num_batches, -1, 1)
     y_tr_bhs = y_tr_bhs.reshape(num_batches, -1, 1)
 
-    x_tr_bhs = x_tr_bhs[:5, :, :]
-    y_tr_bhs = y_tr_bhs[:5, :, :]
+    #x_tr_bhs = x_tr_bhs[:5, :, :]
+    #y_tr_bhs = y_tr_bhs[:5, :, :]
     return x_tr_bhs, y_tr_bhs, landmarks
 
 def load_ts_data(path, num_ts_batches):

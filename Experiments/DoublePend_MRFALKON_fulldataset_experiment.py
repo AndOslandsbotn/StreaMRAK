@@ -6,12 +6,10 @@ from pathlib import Path
 
 from StreaMRAK.StreaMRAKmain import DataLoader
 
-from DoublePendulum.doublePendulumAuxillary import calcEnergy, calcConstEnergyDomainBoundaries
-from DoublePendulum.DPconfig import loadConfig
-from DoublePendulum.DPmain import calc_DP_poss, calc_DP_cm
+from Experiments.Datasets.doublePendulumAuxillary import calcEnergy, calcConstEnergyDomainBoundaries
+from Experiments.Datasets.DPmain import calc_DP_poss, calc_DP_cm
 
 from StreaMRAK.StreaMRAKconfig.loadConfigurations import loadConfigFromCSV
-
 from MRFALKON.MRFALKONmainFULLDATASET import MRFALKON_FULLDATASET_Master, MRFALKONconfig
 
 
@@ -145,9 +143,9 @@ def run_double_pendulum_prediction(max_lvl, recording_length, state_ts_bhs, fore
 if __name__ == '__main__':
     ####################################################################
     pendulum_energies = ['DoublePendLowEnergy', 'DoublePendHighEnergy']
-    pendulum_energy = pendulum_energies[0]
-    #ExperimentName = 'Dp_HighE_MRFALKON_fulldataset'
-    ExperimentName = 'Dp_LowE_MRFALKON_fulldataset_test'
+    pendulum_energy = pendulum_energies[1]
+    ExperimentName = 'Dp_HighE_MRFALKON_fulldataset'
+    #ExperimentName = 'Dp_LowE_MRFALKON_fulldataset'
     config_tag = '_doublePend'
     recording_length = 500
     num_tr_batches = 200

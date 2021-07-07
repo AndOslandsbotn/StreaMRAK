@@ -61,8 +61,8 @@ def load_tr_data(path, targetType, num_batches, loopdata = False, n_loops=1, lm_
 
     x_tr_bhs = np.array_split(x_tr, num_batches)
     y_tr_bhs = np.array_split(y_tr, num_batches)
-    x_tr_bhs = x_tr_bhs[:5]
-    y_tr_bhs = y_tr_bhs[:5]
+    #x_tr_bhs = x_tr_bhs[:5]
+    #y_tr_bhs = y_tr_bhs[:5]
     #landmarks = landmarks[:200]
     return x_tr_bhs, y_tr_bhs, landmarks
 
@@ -88,7 +88,7 @@ if __name__ == '__main__':
     num_ts_batches = 10
     n_ts_p = 100000
     DataFolder = 'Dumbell'
-    ExperimentName = 'Dumbell_MRFALKON_test'
+    ExperimentName = 'Dumbell_MRFALKON'
     targetType = 'complexSinus'
     maxLvl = 15
     ######################################

@@ -4,7 +4,7 @@ from sklearn.metrics import mean_squared_error
 from time import perf_counter
 from pathlib import Path
 
-from DoublePendulum.DPmain import calc_DP_poss, calc_DP_cm
+from Experiments.Datasets.DPmain import calc_DP_poss, calc_DP_cm
 from StreaMRAK.StreaMRAKconfig.loadConfigurations import loadConfigFromCSV
 
 def load_ts_data(path):
@@ -38,7 +38,7 @@ def load_tr_data(path, recording_length, num_batches, num_debug_batches, forecas
     lm_idx = np.random.randint(0, potential_lm.shape[0], size=n_lm)
     landmarks = potential_lm[lm_idx, :]
 
-    state_tr_bhs = state_tr_bhs[:5]
+    #state_tr_bhs = state_tr_bhs[:5]
     return state_tr_bhs, landmarks
 
 
