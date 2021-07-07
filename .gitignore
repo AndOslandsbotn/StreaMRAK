@@ -7,6 +7,14 @@ LvlFillingLogg
 Results
 venv
 
+# Except these files
+!Datasets/DPmain
+!Datasets/doublePendulumAuxillary
+!Datasets/Generate_DP_datasets
+!Datasets/generate_dumbell_Dataset
+!Datasets/generate_dumbell_TargetFunc
+!Datasets/generate_varying_sinus_dataset
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
