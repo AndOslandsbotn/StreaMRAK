@@ -1,0 +1,6 @@
+{
+    "search.exclude": {
+        "**/__pycache__/**": true,
+        "**/DoublePendHighEnergy/**": true,
+    }
+}
