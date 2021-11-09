@@ -15,10 +15,10 @@ found in the folder StreaMRAK/StreaMRAKconfig.
 For the varsin experiments
 lowlim_ntrp = 110000
 
-For the varsin experiments
+For the dumbell experiments
 lowlim_ntrp = 180000
 
-For the varsin experiments
+For the double pend experiments
 lowlim_ntrp = 390000
 
 ## Note
